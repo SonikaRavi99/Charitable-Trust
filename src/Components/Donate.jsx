@@ -13,7 +13,7 @@ function Donate() {
           <Grid item lg ={5} md={12} sm={12}>
             <img
               src="https://t3.ftcdn.net/jpg/02/09/43/80/360_F_209438048_bqYPR1SZJx583icNF2fasiwfnttqMZZn.jpg"
-              alt="Charity Image"
+              alt="Donate"
               width="450px"
               height="300px"
             ></img>

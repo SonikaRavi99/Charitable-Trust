@@ -5,7 +5,6 @@ import ImageListItem from '@mui/material/ImageListItem';
 import { useMediaQuery } from '@mui/material';
 import Contact from './Contact';
 import './Gallery.css';
-import Logo from "../assert/Logo.jpeg";
 
 // Define your theme
 const theme = createTheme();

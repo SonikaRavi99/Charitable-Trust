@@ -5,7 +5,6 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { NavLink } from "react-router-dom";
-import Logo from '../assert/Logo.jpeg'
 
 
 function Contact() {

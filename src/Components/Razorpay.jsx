@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Donation.css";
 import Logo from "../assert/Logo.jpeg";
 
@@ -38,9 +38,9 @@ const Razorpay = () => {
 
   return (
     <div className="razorpay">
-      <a className="paylinkbutton" id="rzp-button1" onClick={handlePayment}>
+      <p className="paylinkbutton" id="rzp-button1" onClick={handlePayment}>
         Pay
-      </a>
+      </p>
     </div>
   );
 };

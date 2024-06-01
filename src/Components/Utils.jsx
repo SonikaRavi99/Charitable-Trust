@@ -26,9 +26,9 @@ function TextItem({ item }) {
         <h4 className="heading">{item.heading}</h4>
         <p>
           {isExpanded ? item.text : `${item.text.slice(0, 505)}...`}
-          <a onClick={handleToggle} className="see-more-btn">
+          <p  onClick={handleToggle} className="see-more-btn">
             {isExpanded ? "See less" : "See more"}
-          </a>
+          </p>
         </p>
       </div>
     </div>

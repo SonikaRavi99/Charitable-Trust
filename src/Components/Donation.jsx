@@ -79,7 +79,7 @@ function Donation() {
             <div>
               <img
                 src="https://t3.ftcdn.net/jpg/02/09/43/80/360_F_209438048_bqYPR1SZJx583icNF2fasiwfnttqMZZn.jpg"
-                alt="Charity Image"
+                alt="Charity"
                 className="DonationImage"
               ></img>
             </div>
@@ -106,9 +106,9 @@ function Donation() {
                   <h4>Pay through QR Code:</h4>
                   <img
                     src="https://www.pngall.com/wp-content/uploads/2/QR-Code-PNG-Picture.png"
+                    alt="Donation"
                     width="150px"
                     height={"150px"}
-                    alt="QR"
                     style={{ padding: "40px" }}
                   ></img>
                 </Grid>

@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import "./PrayerRequests.css";
 import Grid from "@mui/material/Grid";
-import Contact from "./Contact";
 import emailjs from 'emailjs-com';
 
 function PrayerRequests() {

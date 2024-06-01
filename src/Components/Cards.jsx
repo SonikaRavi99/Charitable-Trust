@@ -1,4 +1,4 @@
-import { Button, Image, Text } from "@mantine/core";
+import {Text ,Image } from "@mantine/core";
 import "./Card.css";
 
 function Cards({ data }) {
