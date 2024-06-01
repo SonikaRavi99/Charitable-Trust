@@ -1,0 +1,40 @@
+.Service {
+  background-color: #F5F5F5;
+  padding: 40px;
+}
+.Header {
+  line-height: 35px;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px;
+  color: #2e282b;
+}
+.Cards{
+    padding-left: 70px;
+    cursor: pointer;
+}
+.Button{
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+.Service a {
+  text-decoration: none;
+  color: #F5F5F5 ;
+}
+.Service a:hover {
+  color: #334257;
+}
+@media screen and (max-width: 600px) {
+  .Service{
+    width: 133%;
+    padding: 10px;
+  }
+  .Header{
+    padding: 10px;
+  }
+  .Cards{
+    padding: 10px;
+    padding-left: 35px;
+  }
+}

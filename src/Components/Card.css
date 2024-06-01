@@ -1,0 +1,16 @@
+.card-image {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.box {
+  padding-left: 40px;
+  position: relative;
+  display: inline-block; 
+  margin: 10px; 
+  font-family: Open Sans, sans-serif;
+  color: #2e282b;
+  font-size:medium;
+
+}
+

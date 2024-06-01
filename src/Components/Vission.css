@@ -1,0 +1,12 @@
+.VissionMain{
+    background-color: #F5F5F5;
+    color: #2e282b;
+    padding: 100px;
+}
+@media screen and (max-width: 600px) {
+    .VissionMain{
+        width: 121%;
+        padding: 30px;
+        padding-top: 70px;
+    }
+}

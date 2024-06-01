@@ -1,0 +1,39 @@
+.Advertise2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://img.freepik.com/premium-photo/woman-african-woman-hand-helping-hand-rescue-multiathnic-people-helping-hands-rescue-gesture-black-white_293990-3413.jpg");
+  padding: "150px";
+  color: "black";
+  background-size: "cover";
+  color: white;
+  height: 100px;
+  padding: 90px;}
+
+.Advertise1{
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("https://indiacarecharitabletrust.org/images/slide1.jpg");
+  padding: "150px";
+  color: "black";
+  background-size: "cover";
+  color: white;
+  height: 100px;
+  padding: 90px;
+}
+@media screen and (max-width: 600px) {
+  .Advertise {
+    width: 138%;
+  }
+  .Advertise1,
+  .Advertise2{
+      height: 150px;
+      padding: 50px;
+  }
+ 
+}

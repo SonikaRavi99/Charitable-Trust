@@ -1,0 +1,28 @@
+.Donate{
+    background-color: #F5F5F5;
+    padding: 40px;
+}
+.Button{
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+.Text{
+    font-size: large;
+    padding: 10px;
+    color: black;
+}
+.Donate a {
+    text-decoration: none;
+    color: #F5F5F5 ;
+  }
+.Donate a:hover {
+    color: #334257;
+  }
+
+  @media screen and (max-width: 600px) {
+    .Donate{
+        width: 130%;
+        padding: 15px;
+    }
+  }

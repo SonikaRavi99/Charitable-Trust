@@ -1,0 +1,51 @@
+h4 {
+  padding-left: 15px;
+  margin: 5px;
+  margin-top: 0;
+}
+.button {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.AppBar a {
+  text-decoration: none;
+  color: black;
+}
+.AppBar .Menu a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.AppBar a:visited {
+  color: black;
+}
+.visit-link {
+  color: white !important;
+  text-decoration: none;
+}
+.AppBar a:hover {
+  color: #334257 !important;
+}
+.menu-link {
+  color: black !important;
+  text-decoration: none;
+  font-weight: 550;
+  width: 100%;
+}
+.Navbar {
+  display: flex;
+  flex-direction: column; 
+}
+@media screen and (max-width: 600px) {
+  .Navbar {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: "flex";
+    direction: "row";
+    background-color: white !important;
+    text-align: center;
+  }
+ 
+}

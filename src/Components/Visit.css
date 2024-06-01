@@ -1,0 +1,14 @@
+.Visit{
+   text-align: center;
+   background-color: #f5f5f5;
+   margin-top: 0px;
+   padding: 2px;
+}
+.Map{
+   padding-top: 30px;
+}
+@media screen and (max-width: 600px) {
+   .Visit{
+      width: 140%;
+   }
+}
